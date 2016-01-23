@@ -22,7 +22,7 @@ makeCacheMatrix <- function(m = matrix()) {
 
 ## Returns the inverse of a cacheable Matrix, by calling the internal function getInverse
 
-cacheSolve <- function(x, ...) {
+cacheSolve <- function(x) {
   ## Return a matrix that is the inverse of 'x'
   x$getInverse()
 }
